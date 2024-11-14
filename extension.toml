@@ -1,6 +1,6 @@
 id = "vento"
 name = "Vento"
-version = "0.0.0-devel.1"
+version = "0.0.1"
 schema_version = 1
 authors = ["Deniz Akşimşek <deniz@aksimsek.tr>"]
 description = "Highlighting for the Vento templating language"
