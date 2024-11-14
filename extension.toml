@@ -1,0 +1,11 @@
+id = "vento"
+name = "Vento"
+version = "0.0.0-devel.1"
+schema_version = 1
+authors = ["Deniz Akşimşek <deniz@aksimsek.tr>"]
+description = "Highlighting for the Vento templating language"
+repository = "https://codeberg.org/dz4k/zed-vento"
+
+[grammars.vento]
+repository = "https://github.com/ventojs/tree-sitter-vento"
+commit = "3321077d7446c1b3b017c294fd56ce028ed817fe"
