@@ -1,6 +1,9 @@
-((content) @content
-  (#set! "language" "html")
-  (#set! "combined"))
+((front_matter_content) @injection.content
+  (#set! injection.language "yaml"))
 
-((code) @content
-  (#set! "language" "javascript"))
+((content) @injection.content
+  (#set! injection.language "html")
+  (#set! injection.combined))
+
+((code) @injection.content
+  (#set! injection.language "javascript"))
